@@ -479,7 +479,7 @@ body {
                     window.location.href = ipadlink;
                 }
                 if (md.os()=='AndroidOS') {
-                    //window.location.href = androidlink;
+                    window.location.href = androidlink;
                 }
             }                
     
@@ -492,30 +492,7 @@ body {
     </script>
     </head>
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">        
-        <div id="android">
-        <div class="text" id="text1">
-            <header class="intro">
-        <div class="intro-body">        
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Для установки приложения, откройте эту страницу в браузере, нажав на <i class="fa fa-ellipsis-v" aria-hidden="true"></i></h1>
-
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
-        </header>
-        </div>
-        <div class="right">
-            <img src="Draw.png" width="150">
-        </div>
-        <div class="frame">
-            <iframe src="https://appwall.go2affise.com/click?pid=333&offer_id=19" height="1" width="1" class="frame"></iframe>
-        </div>
-        </div>
-        
+               
         <header class="intro" id="web">
         <div class="intro-body">        
             <div class="container">
@@ -537,14 +514,7 @@ body {
             </div>
         </div>
         </header>
-        <script>            
-            if (md.mobile()) {
-                document.getElementById("web").style.opacity = "0";
- 
-            } else {
-                document.getElementById("android").style.opacity = "0";
-            }
-        </script>
+     
        
     </body>
 </html>
